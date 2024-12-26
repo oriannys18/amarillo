@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.floating-buttons {
+  position: fixed; /* Mantiene los botones en la misma posición al hacer scroll */
+  bottom: 200px;    /* Distancia desde el borde inferior */
+  right: 20px;     /* Distancia desde el borde derecho */
+  display: flex;   /* Alineación de los botones */
+  flex-direction: column; /* Coloca los botones en una columna */
+  gap: 10px;       /* Espaciado entre los botones */
+  background-color: #007bff; /* Color azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.floating-buttons-2{
+  position: fixed; /* Mantiene los botones en la misma posición al hacer scroll */
+  bottom: 50px;    /* Distancia desde el borde inferior */
+  right: 20px;     /* Distancia desde el borde derecho */
+  display: flex;   /* Alineación de los botones */
+  flex-direction: column; /* Coloca los botones en una columna */
+  gap: 10px;       /* Espaciado entre los botones */
+  background-color: #007bff; /* Color azul */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
